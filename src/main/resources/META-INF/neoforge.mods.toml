@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "create_relicworks"
+version = "1.0.0"
+displayName = "Create: Relicworks"
+authors = "Worlds Further"
+description = """Create crushing and mixing to recycle broken Relics (and optional Artifacts junk) into experience and gold. Requires Create 6 and Relics on NeoForge 1.21.1. Artifacts is optional."""
+
+[[dependencies.create_relicworks]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_relicworks]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.create_relicworks]]
+modId = "create"
+type = "required"
+versionRange = "[6.0,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.create_relicworks]]
+modId = "relics"
+type = "required"
+versionRange = "[0.10,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.create_relicworks]]
+modId = "artifacts"
+type = "optional"
+versionRange = "[9.0,)"
+ordering = "AFTER"
+side = "BOTH"
+

@@ -1,0 +1,2 @@
+1.0.0
+Create: Relicworks — Create 6 recycle for Relics broken items into XP/gold/Relic bottles. Optional Artifacts junk crushing. Does not mill intact relics.
