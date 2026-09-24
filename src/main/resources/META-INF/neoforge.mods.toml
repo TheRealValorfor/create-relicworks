@@ -4,10 +4,10 @@ license = "MIT"
 
 [[mods]]
 modId = "create_relicworks"
-version = "1.0.0"
+version = "1.0.1"
 displayName = "Create: Relicworks"
 authors = "Worlds Further"
-description = """Create crushing and mixing to recycle broken Relics (and optional Artifacts junk) into experience and gold. Requires Create 6 and Relics on NeoForge 1.21.1. Artifacts is optional."""
+description = """Create crushing and milling for Relics 0.10 items (and optional Artifacts junk) into experience and gold. Relics 0.10 has no separate *_broken item IDs. Requires Create 6 and Relics on NeoForge 1.21.1. Artifacts is optional."""
 
 [[dependencies.create_relicworks]]
 modId = "neoforge"

@@ -1,2 +1,5 @@
+1.0.1
+- Relics 0.10 has no *_broken item IDs (broken is a model on the same item). Crush/mill the 28 registered relics instead. Drop leftover recipes for unregistered Relics 0.9 IDs.
+
 1.0.0
 Create: Relicworks — Create 6 recycle for Relics broken items into XP/gold/Relic bottles. Optional Artifacts junk crushing. Does not mill intact relics.
